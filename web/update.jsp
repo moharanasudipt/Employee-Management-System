@@ -58,8 +58,8 @@
                         <div class="card-body" id="cardBody">
                             <form action="fs3" method="get" onsubmit="return validateForm()">
                                 <div class="form-group">
-                                    <label for="id" class="i">Enter ID</label>
-                                    <input type="text" class="form-control " id="id" name="id" value='<%= request.getParameter("idss")%>' readonly=true />
+                                   
+                                    <input type="hidden" class="form-control " id="id" name="id" value='<%= request.getParameter("idss")%>' readonly=true />
 
                                 </div>
                                 <div class="form-group">
